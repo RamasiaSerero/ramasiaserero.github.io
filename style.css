@@ -1,11 +1,11 @@
 
 body {
-    font-family: 'Tangerine', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f0f0f0;
     color: #333;
 }
 
-header, section {
+section {
     padding: 20px;
     margin: 20px;
     background-color: #fff;
@@ -17,34 +17,20 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-
-.skills {
+.skills-item {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-}
-
-
-.skill-item {
-    padding: 10px;
-    transition: transform 0.2s;
+    left: 50%;
+    top: 10px;
 }
 
 .skill-item img {
     width: 100px;
-    height: 100px;
+    height:105px;
     object-fit: cover;
 }
 
-.skill-item:hover {
-    transform: scale(1.1);
-}
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
 
 .contact form {
     display: flex;
@@ -77,10 +63,9 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    
+
 }
 
 button:hover {
     background-color: #0056b3;
 }
-
