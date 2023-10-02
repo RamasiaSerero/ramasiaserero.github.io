@@ -1,71 +1,28 @@
-
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e4e2;
+  color: #333;
 }
 
 section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.skills-item {
-    display: flex;
-    justify-content: space-around;
-    left: 50%;
-    top: 10px;
-}
-
-.skill-item img {
-    width: 100px;
-    height:105px;
-    object-fit: cover;
-}
-
-
-
-.contact form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-label {
-    margin-top: 10px;
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .form {
-    max-width: 45%;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-
-}
-
-button:hover {
-    background-color: #0056b3;
+  text-align: left;
+  max-width: 65%;
 }
