@@ -51,7 +51,7 @@
             <a class="nav-link" href="#about">About Me</a>
             <a class="nav-link" href="#skills">Skills</a>
             <a class="nav-link" href="#portfolio">Portfolio</a>
-            <a class="nav-link" href="#contact">Contact Me</a>
+            <a class="nav-link" href="#contact">Contact</a>
             <a class="nav-link"
           </div>
         </div>
@@ -60,9 +60,9 @@
 
     <section class="about" id="about">
       <article>
-        <h1>About Me</h1>
+        <h1>About</h1>
         <p>
-          Hello, I am, a passionate web development student. I am currently
+          Hello, I am a passionate web development student. I am currently
           immersed in the fascinating world of coding, learning new languages,
           and building websites from scratch.
         </p>
@@ -89,11 +89,11 @@
       <h1>Skills</h1>
       <div class="text-center">
         <!-- Remember to include image paddings and text but this is temporary fix -->
-        <img src="/img/h.png" alt="html icon" />
-        <img src="/img/c.png" alt="css icon" />
-        <img src="/img/j.png" alt="javascript icon" />
-        <img src="/img/jj.png" alt="java" />
-        <img src="/img/p.png" alt="python icon" />
+        <img src="/image/h.png" alt="html icon" />
+        <img src="/image/c.png" alt="css icon" />
+        <img src="/image/j.png" alt="javascript icon" />
+        <img src="/image/jj.png" alt="java" />
+        <img src="/image/p.png" alt="python icon" />
         <!-- <img src="/img/temporary_skills_image.png" alt="java, javascript, html, css, python logos" height="256px" width="256px> -->
       </div>
     </section>
@@ -101,19 +101,28 @@
       <h1>Portfolio</h1>
       <div class="text-center">
         <img
-          src="img/coming-soon.png"
+          src="image/coming-soon.png"
           class="rounded mx- img-fluid"
           style="width: 150px"
+          alt="Comming soon image"
         />
       </div>
     </section>
-    <section class="contact" id="contact">
-      <h1>Contact Me</h1>
+    <section>
+      <div>
+      <h1>Contact</h1>
       <div class="form">
-        <script
-          type="text/javascript"
-          src="https://form.jotform.com/jsform/233203767021043"
-        ></script>
+        <form action="https://formsubmit.co/qyo6jsame@mozmail.com" method="POST">
+          <label for="First Name" required>First Name</label>
+          <input type="text" id="Name" name="First Name" style="display: inline-block;" class="text-field" placeholder="First Name" required >
+          <label for="First Name" required>Last Name</label>
+          <input type="text" id="Name" name="Second Name" style="display: inline-block;" class="text-field" placeholder="Last Name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="text-field" placeholder="example@example.com" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" ></textarea><br><br>
+          <button type="submit" value="Submit" class="btn-submit" onclick="window.alert('Thank Your\nForm Submitted Successfully')">Submit</button>
+        </form>
       </div>
     </section>
 
@@ -153,5 +162,6 @@
         © 2023 Copyright: Ramasia Serero
       </div>
     </footer>
+
   </body>
 </html>
