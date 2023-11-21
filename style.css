@@ -10,16 +10,17 @@ img {
 }
 
 section {
-  padding: 100px 20px; /* Add more top padding */
+  padding: 90px 20px; /* Add more top padding */
   margin: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 h1 {
   font-size: 24px;
   margin-bottom: 10px;
+  margin: auto;
+  text-align: center;
 }
 
 form {
@@ -33,3 +34,6 @@ form {
   margin: 0 auto; /* Center horizontally */
 }
 
+#link-icons {
+  text-decoration: none;
+}
