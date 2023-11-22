@@ -11,6 +11,11 @@ img {
   max-height: fit-content;
 }
 
+p {
+  margin: auto;
+  text-align: center;
+}
+
 section {
   padding: 50px 20px; /* Add more top padding */
   margin: 20px;
