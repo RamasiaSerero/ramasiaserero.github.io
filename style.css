@@ -8,6 +8,12 @@ body {
   background-color: #000000;
   color: #ffffff;
 }
+header a {
+  color: #868f97;
+}
+header a:hover {
+  color: rgb(230, 230, 230);
+}
 .class-intro h1 {
   overflow: hidden;
   white-space: nowrap;
