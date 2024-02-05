@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f0eeeb;
-  color: #333;
+  background-color: #000000;
+  color: #ffffff;
 }
 img {
   width: 200px;
@@ -10,6 +10,19 @@ img {
   max-width: fit-content;
   max-height: fit-content;
 }
+.class-intro h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: auto;
+  animation:
+    typing 3.5s steps(40, end);
+}
+
+@keyframes typing {
+  from { width: 0}
+  to { width: 75%}
+}
+
 
 p {
   margin: auto;
