@@ -15,18 +15,17 @@ header a:hover {
 }
 .class-intro p {
   overflow: hidden;
-  flex-direction: column;
   white-space: nowrap;
   letter-spacing: auto;
   font-size: 50px;
-  margin-left: 500px;
-  animation:
-    typing 3.5s steps(40, end);
+  margin: auto;
+  position: left;
+  text-justify: auto;
 }
 
 @keyframes typing {
   from { width: 0}
-  to { width: 75%}
+  to { width: 50%}
 }
 
 
