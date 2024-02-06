@@ -1,24 +1,25 @@
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+  font-family: "Roboto", dank-mono;
+  background-color: #001122;
+  color: #ffffff;
 }
 
 .dark-mode {
-  background-color: #000000;
-  color: #ffffff;
+
 }
 header a {
-  color: #868f97;
+  color: #ffffff;
 }
 header a:hover {
   color: rgb(230, 230, 230);
 }
-.class-intro h1 {
+.class-intro p {
   overflow: hidden;
+  flex-direction: column;
   white-space: nowrap;
   letter-spacing: auto;
   font-size: 50px;
+  margin-left: 500px;
   animation:
     typing 3.5s steps(40, end);
 }
