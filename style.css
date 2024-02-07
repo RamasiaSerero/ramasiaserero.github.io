@@ -9,6 +9,11 @@ body {
 }
 header a {
   color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 12px;
+  border: 12px white;
+  margin: center;
+  flex-flow: column;
 }
 header a:hover {
   color: rgb(230, 230, 230);
@@ -21,6 +26,7 @@ header a:hover {
   margin: auto;
   position: left;
   text-justify: auto;
+  flex-wrap: nowrap;
 }
 
 @keyframes typing {
