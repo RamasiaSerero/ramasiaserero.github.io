@@ -38,11 +38,9 @@ form {
 
 .form {
   margin: 0 auto;
-  padding: 0px 38px;
-  display: flex;
+  display: auto;
   flex-wrap: wrap;
   align-items: flex-start;
-  box-sizing: border-box;
   color: #000000;
   font-size: 16px;
   font-family: Inter, sans-serif;
@@ -50,8 +48,6 @@ form {
 }
 
 .text-field {
-  width: 350px;
-  height: 40px;
   margin: auto;
   padding-top: 0;
   padding-bottom: 0;
@@ -61,11 +57,10 @@ form {
 }
 
 #message {
-  width: 496px;
-  height: 163px;
+  height: 80px;
   padding-top: 0;
   padding-bottom: 0;
-  margin: 12px 4px;
+  margin: auto;
   border-radius: 3px;
   position: relative;
 }
