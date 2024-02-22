@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f0eeeb;
-  color: #333;
+  background-color: #040a3b;
+  color: #ffff;
 }
 img {
   width: 200px;
@@ -17,9 +17,10 @@ p {
 }
 
 section {
+  color: #ffff;
   padding: 50px 20px; /* Add more top padding */
   margin: 20px;
-  background-color: #fff;
+  background-color: #040a3b;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -41,10 +42,9 @@ form {
   display: auto;
   flex-wrap: wrap;
   align-items: flex-start;
-  color: #000000;
+  color: #ffff;
   font-size: 16px;
   font-family: Inter, sans-serif;
-  color: #2c3345;
 }
 
 .text-field {
