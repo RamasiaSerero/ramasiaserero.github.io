@@ -34,11 +34,11 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   color: #040a3b;
   font-size: 16px;
   font-family: Inter, sans-serif;
+  max-width: 600px;
 }
 
 .form {
@@ -48,10 +48,17 @@ form {
 
   
 }
+label {
+  display: block;
+  margin-bottom: -15px;
+  margin-left: 20px;
+
+}
 
 .text-field {
   width: 500px;
-  margin: auto;
+  padding: 50px 20px; /* Add more top padding */
+  margin: 20px;
   padding-top: 0;
   padding-bottom: 0;
   padding: 12px 10px;
@@ -61,16 +68,15 @@ form {
 #message {
   width: 500px;
   height: 120px;
-  margin: auto;
+  padding: 50px 20px; /* Add more top padding */
+  margin: 20px;
   padding-top: 0;
   padding-bottom: 0;
   padding: 12px 10px;
   border-radius: 3px;
 }
 
-#Name {
-  display: inline;
-}
+
 .btn-submit {
   text-align: center ;
   width: 90px;
@@ -93,3 +99,22 @@ form {
 #link-icons {
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .btn-submit {
+    width: 400px;
+  }
+  
+  .text-field {
+    width: 400px;
+  }
+  
+  
+  #message {
+    width: 400px;
+    
+  }
+
+
+
+} 
