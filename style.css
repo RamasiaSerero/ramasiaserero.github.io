@@ -101,17 +101,14 @@ label {
 }
 
 @media (max-width: 600px) {
-  .btn-submit {
-    width: 400px;
-  }
-  
+
   .text-field {
-    width: 400px;
+    width: 250px;
   }
   
   
   #message {
-    width: 400px;
+    width: 250px;
     
   }
 
