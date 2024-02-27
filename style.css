@@ -24,7 +24,7 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h2 {
   font-size: 24px;
   margin-bottom: 10px;
   margin: auto;
@@ -77,7 +77,7 @@ label {
   text-align: center;
   width: 90px;
   height: 30px;
-  margin: auto;
+  margin-left: 220px;
   background-color: #18bd5b;
   font: 16px normal inherit;
   color: #040a3b;
@@ -96,6 +96,7 @@ label {
 }
 
 @media (max-width: 600px) {
+
   img {
     width: 100px;
     height: 125px;
@@ -108,5 +109,10 @@ label {
 
   #message {
     width: 200px;
+  }
+
+  .btn-submit {
+    margin-left: 76px;
+
   }
 }
