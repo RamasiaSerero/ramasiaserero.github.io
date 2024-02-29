@@ -112,7 +112,23 @@ label {
   }
 
   .btn-submit {
-    margin-left: 76px;
+    margin-left: 7px;
 
+  }
+
+  form {
+    align-items: center;
+  }
+  label {
+    margin-right: 135px;
+
+  }
+
+  .email-label {
+    margin-right: 175px;
+  }
+
+  .message-label {
+    margin-right: 143px;
   }
 }
